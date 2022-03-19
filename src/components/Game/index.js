@@ -263,11 +263,6 @@ class Game extends Component {
   componentDidMount() {
     this.timerId = setInterval(this.reduceTimer, 1000)
 
-    const {timer} = this.state
-
-    if (timer === 0) {
-      clearInterval(this.timerId)
-    }
   }
 
   reduceTimer = () =>
