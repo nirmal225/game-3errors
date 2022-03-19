@@ -1,0 +1,22 @@
+.list-item-container {
+  margin: 5px;
+}
+
+.thumbnail-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.thumbnail-image {
+  width: 70px;
+  height: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-image {
+    width: 100px;
+    height: 100px;
+  }
+}

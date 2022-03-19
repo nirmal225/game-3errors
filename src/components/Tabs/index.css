@@ -1,0 +1,28 @@
+.list-container {
+  padding: 5px;
+}
+
+.active {
+  border-bottom: 4px solid #fec653;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 552px) {
+  .button {
+    font-size: 20px;
+  }
+}
+
+.active-tab {
+  color: #fec653;
+}
